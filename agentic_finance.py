@@ -85,7 +85,7 @@ genai.configure(api_key=API_KEY)
 
 # Initialize the model with the defined tools and a strict system prompt
 model = genai.GenerativeModel(
-    model_name='gemini-pro',
+    model_name='gemini-1.5-flash',
     tools=financial_tools,
     system_instruction=(
         "You are an Intelligent Financial Decision Agent. "
