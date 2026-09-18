@@ -127,7 +127,7 @@ demo = gr.ChatInterface(
     fn=respond,
     title="Intelligent Financial Decision Agent (Agentic Workflow)",
     description="This agent uses actual Tool Calling/Function Calling. It will autonomously query mock databases and APIs before replying.",
-    theme=gr.themes.Monochrome()
+    
 )
 
 if __name__ == "__main__":
